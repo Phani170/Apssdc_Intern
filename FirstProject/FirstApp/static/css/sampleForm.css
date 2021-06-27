@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: cornsilk;
+    font-size: 1.05em;
+    /* background-image: url(https://cdn1.vectorstock.com/i/1000x1000/50/20/blackboard-inscribed-with-scientific-formulas-and-vector-20465020.jpg); */
+}
+
+.Form {
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 10%;
+    border: 15px solid bisque;
+    border-radius: 15px;
+    background-color: darkcyan;
+    padding: 25px 80px 25px 80px;
+    text-align: center;
+}
+
+h3{
+    border: 1px solid grey;
+    padding: 10px 10px 10px 10px;
+    border-radius: 12px;
+    margin-bottom: 27px;
+    color: royalblue;
+    font-size: 1.5em;
+    background-color: lightcyan;
+
+}
+
+input{
+    border-color: antiquewhite;
+    background-color: floralwhite;
+    border-style: revert;
+    outline: none;
+}
+input[type=number]:focus{
+    border:2px solid cornsilk;
+}
